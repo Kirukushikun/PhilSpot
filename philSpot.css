@@ -1,0 +1,66 @@
+/* Navigator */
+
+a{
+    text-decoration: none;
+    font-family:poppins;
+    color: white;
+}
+
+#nav:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+/* Navigator */
+
+/* Carousel */
+.carousel-item{
+    height: 37rem;
+    background-color:#615b5b;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+#container1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding-bottom: 200px;
+
+    color: white;
+
+}
+/* Carousel */
+
+/* Container 2 */
+
+#phMap{
+    width: 75%;
+}
+
+#container2{
+    color: white;
+}
+
+
+#c2Background{
+    height: 650px;
+
+    background-image: url(imgSample4.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Container 2 */
+
+/* Container 3 */
+
+#column1{
+    border-radius: 25px;
+    margin: 10px;
+}
+
+/* Container 3 */
