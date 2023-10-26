@@ -1,3 +1,8 @@
+@font-face{
+    font-family: fsAlbert;
+    src:url(fsAlbert.otf);
+}
+
 /* Navigator */
 
 a{
@@ -12,10 +17,18 @@ a{
 
 /* Navigator */
 
+
 /* Carousel */
+.lvm{
+    font-family:fsAlbert;
+    font-size: 70px;
+    letter-spacing: 30px;
+}
+
 .carousel-item{
+    text-align: center;
+
     height: 37rem;
-    background-color:#615b5b;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -27,7 +40,7 @@ a{
     left: 0;
     right: 0;
 
-    padding-bottom: 200px;
+    padding-bottom: 230px;
 
     color: white;
 
