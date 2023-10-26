@@ -3,15 +3,27 @@
     src:url(fsAlbert.otf);
 }
 
+@font-face {
+    font-family: fsBebas;
+    src: url(fsBebasNeue-Regular.otf);
+}
+
 /* Navigator */
 
+#logo{
+    width: 80px;
+    margin-right:25px;
+}
+
 a{
+
     text-decoration: none;
     font-family:poppins;
+    font-size: 17px;
     color: white;
 }
 
-#nav:hover{
+#navi:hover{
     background-color: rgba(255, 255, 255, 0.342);
 }
 
@@ -49,8 +61,25 @@ a{
 
 /* Container 2 */
 
+#c2H3{
+    text-align: left; 
+    padding-top: 20%; 
+    margin-left: 120px; 
+    font-family: fsBebas; 
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+#c2P{
+    text-align: left;
+    margin-left: 120px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
 #phMap{
-    width: 75%;
+    width: 65%;
+    margin-left: 70px;
 }
 
 #container2{
@@ -59,9 +88,9 @@ a{
 
 
 #c2Background{
-    height: 650px;
+    height: 750px;
 
-    background-image: url(imgSample4.jpg);
+    background-image: url(Phil2.jpg);
     position: relative;
     background-position: center;
     background-size: cover;
