@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
     <title>PhilSpot</title>
     <link rel="stylesheet" href="mostVisited.css">
     <link rel="icon" type="Image/x-icon" href="Icon.ico">
+    <link rel="stylesheet" href="footer.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 </head>
@@ -17,17 +26,51 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
-    <!-- Navigation Bar 2.0 -->
-    <nav style="background-color: black; text-align: center;">
-        
-        <a href="index.html"><img src="Logo3.png" alt="" id="logo"></a>
-        <a href="mostVisited.html" id="nA1">Most Visited</a>
-        <a href="spotFeatures.html" id="nA1">Spot Features</a>
-        <a href="eventsAndFestivals.html" id="nA1">Events and Festivals</a>
-        <a href="backpack.html" id="nA1">Backpack</a>
-    </nav>
-    <!-- /Navigation Bar 2.0 -->
+    <!-- Navigation Bar 3.0 -->
+    <div class="container-{breakpoint} bg-black text-white">
+        <div class="container">
 
+            <nav class="navbar navbar-expand-md bg-black navbar-dark">
+
+                <a href="" class="navbar-brand">
+                    <img src="Logo3.png" alt="idea" style="width: 70px;">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coll">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="coll" style="justify-content: right;">
+                    <ul class="navbar-nav" id="navElement" style="gap: 16px; font-size: 15px; padding-top: 3px;">
+                        
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="mostVisited.html" class="nav-link">Most Visited</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="spotFeatures.html" class="nav-link">Spot Features</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="eventsAndFestivals.html" class="nav-link">Events and Festivals</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="backpack.html" class="nav-link">Backpack</a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- /Navigation Bar 3.0 -->
+    
     <!-- Container 1 -->
     <div class="container-fluid">
 
@@ -35,7 +78,7 @@
 
             <div class="row">
                 <div class="col">
-                    <div class="col p-4 mt-3"><h1 id="c1Heading1">Most <b>Visited</b></h1></div>
+                    <div class="col p-4 mt-3" id="c1Heading1"><h1>Most <b style="color: #ffcc00;">Visited</b></h1></div>
                 </div>
             </div>
 
@@ -44,19 +87,59 @@
                 <div id="Image1">
                     
                     <div class="bottomleft">
-                        <h3>Boracay</h3>
+                        <h3>Calle Crisologo</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Western Visayas Region
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Vigan, Ilocos Sur.
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nam dolores esse consequatur fugit, eveniet dolor illum id sunt alias? Quia numquam cum laboriosam corporis esse perferendis sapiente a earum!</p>
+                            <a href="" style="color: #e9e9e9; background-color: #9191913b; padding: 8px; border-radius: 5px; text-decoration: none;">Read more</a>
                         </p>
                     </div>
 
                 </div>
 
-                <div id="Image2"></div>
-                <div id="Image3"></div>
-                <div id="Image4"></div>
-                <div id="Image5"></div>
+                <div id="Image2">
+
+                    <div class="overlay"></div>
+                    <div class="midcenter">
+                        <h4>Banaue Rice Terraces</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Central Luzon
+                        </p>
+                    </div>
+
+                </div>
+                <div id="Image3">
+
+                    <div class="midcenter">
+                        <h4>Manila Ocean Park</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Central Luzon
+                        </p>
+                    </div>
+
+                </div>
+                <div id="Image4">
+                    <div class="midcenter">
+                        <h4>Hinagdanan Cave</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Bohol Province
+                        </p>
+                    </div>
+                </div>
+                <div id="Image5">
+                    <div class="midcenter">
+                        <h4>Taoist 
+                            .  Temple</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            La Union
+                        </p>
+                    </div>
+                </div>
 
             </div>
 
@@ -179,7 +262,43 @@
 
     <!-- /Container 2 -->
 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-white">
 
+            <div class="footerParent">
+                <div class="footerChild1">
+                    <h5>PhilSpot</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, nostrum eum porro rem adipisci esse vitae quam sit cumque.</p>
+                </div>
+
+                <div class="footerChild2">
+                    <h5>Community</h5>
+                    <p>Blog</p>
+                    <p>Ideas</p>
+                    <p>Developers</p>
+                </div>
+
+                <div class="footerChild3">
+                    <h5>Contact</h5>
+                    <p><i class="bi bi-telephone-forward-fill"></i>  +63 9382951931</p>
+                    <p><i class="bi bi-envelope"></i> PhilSpot.Help@gmail.com</p>
+                </div>
+
+                <div class="footerChild4">
+                    <h5>Follow Us</h5>
+                    <div class="social">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+    <!-- /Footer -->
 
 </body>
 </html>

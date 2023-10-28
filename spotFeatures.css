@@ -1,17 +1,3 @@
-/* Navigator */
-
-a{
-    text-decoration: none;
-    font-family:poppins;
-    color: white;
-}
-
-#nav:hover{
-    background-color: rgba(255, 255, 255, 0.342);
-}
-
-/* Navigator */
-
 /* Container1 */
 .c1Parent{
     display: grid;
@@ -35,6 +21,7 @@ a{
 #containerParent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
     height: 900px;
     gap: 20px;
     grid-template-areas: 
@@ -44,23 +31,15 @@ a{
     ;
 }
 
+
 .images{
     text-align: center;
     justify-content: center;
-    width: 365px;
-    height:365px;
-    padding: 27px 27px 50px 27px;
-    margin-bottom: 30px;
-}
-
-
-
-.details{
     padding: 25px;
 }
 
-.titles{
-    text-align: center;
+.details{
+    padding: 25px;
 }
 
 #imageCard1{
