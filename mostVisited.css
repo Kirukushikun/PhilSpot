@@ -89,46 +89,90 @@
 
 /* Container2 */
 
-#c2Col1{
+#c2Parent{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    grid-template-areas:
+    "c2Image1 c2Image2 c2Image3 c2Image4"
+    ;
+}
+
+#c2Image1{
+    grid-area: c2Image1;
     background-image: url(AgnoBeach.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
 }
-#c2Col2{
+
+#c2Image2{
+    grid-area: c2Image2;
     background-image: url(LaUnion.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
 }
-#c2Col3{
+
+#c2Image3{
+    grid-area: c2Image3;
     background-image: url(IlocosNorte.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
 }
-#c2Col4{
+
+#c2Image4{
+    grid-area: c2Image4;
     background-image: url(IlocosSur.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
 }
 
-#c2Col5{
-    background-color: rgb(250, 223, 215);
+#c2Parent2{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    grid-template-areas:
+    "c2Image5 c2Image6 c2Image7 c2Image8"
+    ;
+}
+
+#c2Image5{
+    grid-area: c2Image5;
+    background-image: url(Pampanga.jpg);
+    background-size: cover;
+    background-position: center;
     height: 400px;
 }
-#c2Col6{
-    background-color: rgb(243, 250, 215);
+
+#c2Image6{
+    grid-area: c2Image6;
+    background-image: url(Aurora.jpg);
+    background-size: cover;
+    background-position: center;
     height: 400px;
 }
-#c2Col7{
-    background-color: rgb(215, 245, 250);
+
+#c2Image7{
+    grid-area: c2Image7;
+    background-image: url(Tarlac.jpg);
+    background-size: cover;
+    background-position: center;
     height: 400px;
 }
-#c2Col8{
-    background-color: rgb(246, 215, 250);
+
+#c2Image8{
+    grid-area: c2Image8;
+    background-image: url(Zambales.jpg);
+    background-size: cover;
+    background-position: center;
     height: 400px;
 }
+
+
 
 /* /Container2 */
