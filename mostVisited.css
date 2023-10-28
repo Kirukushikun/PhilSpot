@@ -20,6 +20,7 @@
 /* Navigator */
 
 /* Container1 */
+
 .container-fluid {
     background-color:#1e1e1e;
     height: 850px;
@@ -31,7 +32,15 @@
     color: white;
 }
 
+.bottomleft {
+    position: absolute;
+    bottom: 13px;
+    left: 20px;
+    font-size: 19px;
+    letter-spacing: 1px;
 
+    color: white;
+}
 
 .c1Parent{
     color: white;
@@ -51,6 +60,7 @@
     background-size: cover;
     background-position: center;
     height: 500px;
+    position: relative;
 }
 
 #Image2{
@@ -59,6 +69,7 @@
     background-size: cover;
     background-position: center;
     height: 170px;
+    
 }
 
 #Image3{
@@ -105,6 +116,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Image2{
@@ -113,6 +125,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Image3{
@@ -121,6 +134,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Image4{
@@ -129,6 +143,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Parent2{
@@ -147,6 +162,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Image6{
@@ -155,6 +171,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Image7{
@@ -163,6 +180,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 #c2Image8{
@@ -171,6 +189,7 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+    position: relative;
 }
 
 

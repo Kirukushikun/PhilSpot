@@ -176,24 +176,20 @@
     background-color: black;
 }
 
-
+/* Container 2 and 3 Responsiveness*/
 @media(max-width: 768px){
     .flex-container{
         flex-direction: column;
         bottom: 0;
     }
-
     #c2H3, #c2P{
         text-align: center;
     }
-
     #Map{
         width: 60%;
-        margin-left: 120px;
+        margin-left: 100px;
+        margin-bottom: 20px;
     }
-
-
-
     .c3Parent{
         height: auto;
         gap: 20px;
@@ -207,10 +203,39 @@
             "colImage4"
         ;
     }
-
     #sideImage0{
         height: 300px; 
     }
+}
+/* Container 2 and 3 Responsiveness*/
 
+@media (max-width: 640px) {
+    .lvm{
+        font-size: 50px;
+    }
+
+    #Map{
+        width: 50%;
+        margin-left: 80px;
+    }
+
+    #c2H3{
+        font-size:35px;
+    }
+
+    #c2P{
+        font-size:15px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .lvm{
+        font-size: 40px;
+    }
+
+    #c2H3{
+        font-size:25px;
+    }
 
 }

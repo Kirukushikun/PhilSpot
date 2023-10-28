@@ -11,3 +11,104 @@ a{
 }
 
 /* Navigator */
+
+/* Container1 */
+.c1Parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+    bottom: 0px;
+}
+
+#Dropdown{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: transparent;
+    border-style: none;
+}
+
+/* /Container1 */
+
+/* Container2 */
+#containerParent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 900px;
+    gap: 20px;
+    grid-template-areas: 
+        "imageCard1 imageCard2 imageCard3"
+        "imageCard4 imageCard5 imageCard6"
+        "imageCard7 imageCard8 imageCard9"
+    ;
+}
+
+.images{
+    text-align: center;
+    justify-content: center;
+    width: 365px;
+    height:365px;
+    padding: 27px 27px 50px 27px;
+    margin-bottom: 30px;
+}
+
+
+
+.details{
+    padding: 25px;
+}
+
+.titles{
+    text-align: center;
+}
+
+#imageCard1{
+    grid-area: imageCard1;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard2{
+    grid-area: imageCard2;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+
+#imageCard3{
+    grid-area: imageCard3;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard4{
+    grid-area: imageCard4;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard5{
+    grid-area: imageCard5;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard6{
+    grid-area: imageCard6;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard7{
+    grid-area: imageCard7;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard8{
+    grid-area: imageCard8;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+#imageCard9{
+    grid-area: imageCard9;
+    background-color:rgba(255, 255, 255, 0.267);
+    border-radius: 10px;
+}
+
+
+/* /Container2 */
