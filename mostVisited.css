@@ -1,6 +1,6 @@
 /* Container1 */
 
-.container-fluid {
+#fContainer {
     background-color:#1e1e1e;
     height: 870px;
 }
@@ -14,7 +14,7 @@
 }
 
 #pin{
-    color: #d6ab00
+    color: rgb(214, 171, 0)
 }
 
 .bottomleft {
@@ -202,4 +202,57 @@
 }
 
 /* /Container2 */
-/* Nice */
+
+/* Container1 Responsiveness */
+@media(max-width:991px){
+    .c1Parent{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+        "Image1 Image2"
+        "Image1 Image3"
+        "Image1 Image4"
+        "Image1 Image5"
+        ;
+    }
+
+    #Image1{
+        height: 750px;
+    }
+
+    #fContainer{
+        height: 930px;
+    }
+}
+
+@media(max-width:767px){
+    .c1Parent{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "Image1"
+        "Image2"
+        "Image3"
+        "Image4"
+        "Image5"
+        ;
+    }
+
+    #Image1{
+        height: 650px;
+    }
+    #fContainer{
+        height: 1600px;
+    }
+
+    .midcenter{
+        padding: 60px;
+        padding-left: 145px;
+    }
+}
+
+@media(max-width:541px){
+    .midcenter{
+        padding: 60px;
+        left: 18px;
+    }
+}
+/* Container1 Responsiveness */
