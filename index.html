@@ -12,7 +12,7 @@
     
     <title>PhilSpot</title>
 </head>
-<body>
+<body style="height: auto;">
 
     <script src="https://cdn.jsde        livr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -76,32 +76,42 @@
 
     <!-- Container 2 -->
     <div class="container-fluid" id="c2Background">
+
         <div class="container" id="container2">
-            <div class="row">
-                <div class="col-6 p-5">
-                    <h3 id="c2H3">Welcome to the Philippines</h3>
-                    <p id="c2P">There is more fun in the Philippines!</p>
+
+            <div class="flex-container">
+
+                <div>
+                    <div  class="c2Parent">
+                        <h3 id="c2H3">Welcome to the Philippines</h3>
+                        <p id="c2P">There is more fun in the Philippines!</p>
+                    </div>
                 </div>
-                <div class="col p-2">
-                    <img src="PhilMap.png" alt="Image Unavailable" id="phMap">
+
+                <div class="c2Map">
+                    <span><img src="PhilMap.png" id="Map" alt=""></span>
                 </div>
+
             </div>
         </div>
+
     </div>
     <!-- /Container 2 -->
 
     <!-- Container 3 -->
-    <div class="container-fluid" style="height: 800px;">
-
+    <div class="container-fluid" style="height: 700px;">
         <div class="container">
 
             <div class="row">
-                <div class="col p-4 mt-3"><h1 id="c3H1">Suggested <b>Spots</b></h1></div>
+                <div class="col" id="c3Header">
+                    <h1 id="c3H1">Suggested <b>Spots</b></h1>
+                </div>
             </div>
 
-            <div class="parent row" style="height: 600px;">
+            <div class="c3Parent">
+              
 
-                <div class="column1 col-4" id="c3C1">
+                <div id="sideImage0">
                     <div class="bottomleft">
                         <h3>Coron Island</h3>
                         <p>
@@ -111,60 +121,57 @@
                     </div>
                 </div>
 
-                <div class="col" style="height: 500px;">
-
-                    <div class="row" style="height: 300px;">
-                        <div class="column1 col-6 p-3" id="c3C2">
-                            <div class="bottomleft">
-                                <h3>Boracay</h3>
-                                <p>
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Western Visayas Region
-                                </p>
-                            </div>
-                        </div>
-                        <div class="column1 col p-3" id="c3C3">
-                            <div class="bottomleft">
-                                <h3>Fort Santiago</h3>
-                                <p>
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    National Capital Region
-                                </p>
-                            </div>
-                        </div>
+                <div id="colImage1">
+                    <div class="bottomleft">
+                        <h3>Boracay</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Western Visayas Region
+                        </p>
                     </div>
+                </div>
 
-                    <div class="row" style="height: 300px;">
-                        <div class="column1 col-6 p-3" id="c3C4">
-                            <div class="bottomleft">
-                                <h3>Tinago Falls</h3>
-                                <p>
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Northern Mindanao
-                                </p>
-                            </div>
-                        </div>
-                        <div class="column1 col p-3" id="c3C5" >
-                            <div class="bottomleft">
-                                <h3>Mount Pinatubo</h3>
-                                <p>
-                                    <i class="bi bi-geo-alt-fill"></i>
-                                    Central Luzon
-                                </p>
-                            </div>
-                        </div>
+                <div id="colImage2">
+                    <div class="bottomleft">
+                        <h3>Fort Santiago</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            National Capital Region
+                        </p>
                     </div>
+                </div>
+                
+                <div id="colImage3">
+                    <div class="bottomleft">
+                        <h3>Fort Santiago</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            National Capital Region
+                        </p>
+                    </div>
+                </div>
 
+                <div id="colImage4">
+                    <div class="bottomleft">
+                        <h3>Mount Pinatubo</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Central Luzon
+                        </p>
+                    </div>
                 </div>
 
             </div>
+
         </div>
+        
 
     </div>
+
     <!-- /Container 3 -->
 
     <!-- Footer -->
-    <div class="body">
+    <!-- <div class="body">
 
         <div id="all">
         <footer class="footer">
@@ -185,6 +192,7 @@
 
                 <div class="sec quicklinks">
                     <h4>Support</h4>
+                    
                     <ul>
                         <li><a href="">FAQs</a></li>
                         <li><a href="">Privacy Policy</a></li>
@@ -218,7 +226,7 @@
        </footer>
     </div>
 
-    </div>
+    </div> -->
     <!-- /Footer -->
 
     

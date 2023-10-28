@@ -8,7 +8,7 @@
 .carousel-item{
     text-align: center;
 
-    height: 37rem;
+    height: 45rem;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -20,7 +20,7 @@
     left: 0;
     right: 0;
 
-    padding-bottom: 230px;
+    padding-bottom: 300px;
 
     color: white;
 
@@ -29,10 +29,28 @@
 
 /* Container 2 */
 
+.flex-container{
+    display: flex;
+    background-color: rgba(30, 143, 255, 0);
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.c2Parent{
+    width: 600px;
+}
+
 #c2H3{
-    text-align: left; 
-    padding-top: 20%; 
-    margin-left: 120px; 
+    position: static;
+    text-align: left;
     font-family: fsBebas; 
     font-size: 70px;
     letter-spacing: 20px;
@@ -40,23 +58,24 @@
 
 #c2P{
     text-align: left;
-    margin-left: 120px;
     font-family: Poppins;
-    font-size: 20px;
-}
-
-#phMap{
-    width: 65%;
-    margin-left: 70px;
+    font-size: 30px;
 }
 
 #container2{
     color: white;
 }
 
+#c2Map{
+    text-align: right;
+}
+
+#Map{
+    width: 80%;
+}
 
 #c2Background{
-    height: 750px;
+    height: auto;
 
     background-image: url(Phil2.jpg);
     position: relative;
@@ -66,7 +85,8 @@
 
 /* Container 2 */
 
-/* Container 3 */
+
+/* Container 3 2.0*/
 
 .bottomleft {
     position: absolute;
@@ -78,60 +98,119 @@
     color: white;
 }
 
+.c3Parent{
+    margin-top: 30px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 100px;
+    grid-template-areas:
+        "sideImage0 colImage1 colImage2"
+        "sideImage0 colImage3 colImage4"
+    ;
+}
+
+#sideImage0, #colImage1, #colImage2, #colImage3, #colImage4{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#sideImage0:hover, #colImage1:hover, #colImage2:hover, #colImage3:hover, #colImage4:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+#c3Header{
+    grid-area: c3Header;
+    margin-top: 30px;
+}
 #c3H1{
     font-size: 50px;
     font-family: Poppins;
     color: black;
 }
 
-.column1{
-    border-radius: 25px;
-    margin: 10px;
-}
-
-#c3C1{
+#sideImage0{
+    grid-area: sideImage0;
     background-image: url(Palawan.jpg);
-    transition: 1.1s;
+    background-position: center;
     background-size: cover;
-    
+    height: 540px;
     position: relative;
 }
 
-#c3C2{
+#colImage1{
+    grid-area: colImage1;
     background-image: url(Boracay.jpg);
-    transition: 1.1s;
+    background-position: center;
     background-size: cover;
-
     position: relative;
 }
-
-#c3C3{
+#colImage2{
+    grid-area: colImage2;
     background-image: url(FortSantiago.jpg);
-    transition: 1.0s;
+    background-position: center;
     background-size: cover;
-
     position: relative;
 }
-
-#c3C4{
+#colImage3{
+    grid-area: colImage3;
     background-image: url(TinagoFalls.jpg);
-    transition: 1.1s;
+    background-position: center;
     background-size: cover;
-
     position: relative;
 }
-
-#c3C5{
+#colImage4{
+    grid-area: colImage4;
     background-image: url(mtPinatubo.jpg);
-    transition: 1.1s;
+    background-position: center;
     background-size: cover;
-
     position: relative;
 }
 
-#c3C1:hover, #c3C2:hover, #c3C3:hover, #c3C4:hover, #c3C5:hover{
-    transform: scale(1.1);
+/* Container 3 2.0*/
+
+.footer{
+    position: absolute;
+    background-color: black;
 }
 
 
-/* Container 3 */
+@media(max-width: 768px){
+    .flex-container{
+        flex-direction: column;
+        bottom: 0;
+    }
+
+    #c2H3, #c2P{
+        text-align: center;
+    }
+
+    #Map{
+        width: 60%;
+        margin-left: 120px;
+    }
+
+
+
+    .c3Parent{
+        height: auto;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+        grid-template-areas:
+            "sideImage0"
+            "colImage1"
+            "colImage2"
+            "colImage3"
+            "colImage4"
+        ;
+    }
+
+    #sideImage0{
+        height: 300px; 
+    }
+
+
+}

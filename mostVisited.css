@@ -1,0 +1,134 @@
+/* Navigator */
+
+#logo{
+    width: 80px;
+    margin-right:25px;
+}
+
+#nA1{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family:poppins;
+    font-size: 17px;
+    color: white;
+}
+
+#nA1:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+/* Navigator */
+
+/* Container1 */
+.container-fluid {
+    background-color:#1e1e1e;
+    height: 850px;
+}
+
+#c1Heading1{
+    font-size: 50px;
+    font-family: Poppins;
+    color: white;
+}
+
+
+
+.c1Parent{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: auto;
+    grid-template-areas: 
+        "Image1 Image1 Image1 Image1"
+        "Image2 Image3 Image4 Image5"
+    ;
+}
+
+#Image1{
+    grid-area: Image1;
+    background-image: url(Calle.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#Image2{
+    grid-area: Image2;
+    background-image: url(BanaueRice.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+}
+
+#Image3{
+    grid-area: Image3;
+    background-image: url(ManilaOceanPark.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+}
+
+#Image4{
+    grid-area: Image4;
+    background-image: url(HinagdananCave.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+}
+
+#Image5{
+    grid-area: Image5;
+    background-image: url(TaoistTemple.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+}
+/* /Container1 */
+
+
+/* Container2 */
+
+#c2Col1{
+    background-image: url(AgnoBeach.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#c2Col2{
+    background-image: url(LaUnion.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#c2Col3{
+    background-image: url(IlocosNorte.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+#c2Col4{
+    background-image: url(IlocosSur.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#c2Col5{
+    background-color: rgb(250, 223, 215);
+    height: 400px;
+}
+#c2Col6{
+    background-color: rgb(243, 250, 215);
+    height: 400px;
+}
+#c2Col7{
+    background-color: rgb(215, 245, 250);
+    height: 400px;
+}
+#c2Col8{
+    background-color: rgb(246, 215, 250);
+    height: 400px;
+}
+
+/* /Container2 */
