@@ -88,6 +88,10 @@
 
 /* Container 3 2.0*/
 
+#tContainer{
+    height: 720px;
+}
+
 .bottomleft {
     position: absolute;
     bottom: 13px;
@@ -209,6 +213,12 @@
 }
 /* Container 2 and 3 Responsiveness*/
 
+@media(max-width:768px){
+    #tContainer{
+        height: 1820px;
+    }
+}
+
 @media (max-width: 640px) {
     .lvm{
         font-size: 50px;
@@ -236,10 +246,6 @@
 
     #c2H3{
         font-size:25px;
-    }
-
-    body{
-        height: 2000px;
     }
 
 }
