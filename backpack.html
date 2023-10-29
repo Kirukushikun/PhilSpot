@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>PhilSpot</title>
     <link rel="stylesheet" href="backpack.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" type="Image/x-icon" href="Icon.ico">
+
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -13,41 +23,50 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     
-    <!-- Navigation Bar -->
-    <div class="container-fluid" style="background-color: black;">
-        
+    <!-- Navigation Bar 3.0 -->
+    <div class="container-{breakpoint} bg-black text-white">
         <div class="container">
-            <div class="row mx-5">
-                <div class="col-2 p-2" style="text-align: center;">
-                    <a href="index.html"><h3>Logo</h3></a>
+
+            <nav class="navbar navbar-expand-md bg-black navbar-dark">
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="Logo3.png" alt="idea" style="width: 70px;">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coll">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="coll" style="justify-content: right;">
+                    <ul class="navbar-nav" id="navElement" style="gap: 16px; font-size: 15px; padding-top: 3px;">
+                        
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="mostVisited.html" class="nav-link">Most Visited</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="spotFeatures.html" class="nav-link">Spot Features</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="eventsAndFestivals.html" class="nav-link">Events and Festivals</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="backpack.html" class="nav-link">Backpack</a>
+                        </li>
+    
+                    </ul>
                 </div>
-
-                <div class="col" style="text-align: center;">
-
-                    <div class="row" id="rowNav">
-                        <div class="col-3 p-3" id="nav">
-                            <a href="mostVisited.html">Most Visited</a>
-                        </div>
-
-                        <div class="col-3 p-3" id="nav">
-                            <a href="spotFeatures.html">Spot Features</a>
-                        </div>
-
-                        <div class="col-3 p-3" id="nav">
-                            <a href="eventsAndFestivals.html">Events and Festivals</a>
-                        </div>
-
-                        <div class="col p-3" id="nav">
-                            <a href="backpack.html">Backpack</a>
-                        </div>
-                    </div>
-
-                </div>
-            
-            </div>
+            </nav>
         </div>
+
     </div>
-    <!-- /Navigation Bar -->
+    <!-- /Navigation Bar 3.0 -->
 
     <!-- Container1 -->
     <div class="container-fluid" style="background-color: aquamarine; height: auto;">
@@ -75,29 +94,29 @@
         <!-- Carousel Items -->
         <div class="carousel-inner">
 
-            <div class="carousel-item active" style="background-color: rgb(221, 216, 216);">
+            <div class="carousel-item active" style="background-color:rgb(67, 134, 76);">
                 <div class="container1">
                     <div class="container">
                         <h1>Refillable Tumblers</h1>
-                        <p>Staying hydrated never looked this cool! Bring along your favorite reusable bottle for all your water consumption.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus consequuntur eveniet iure ut excepturi ipsam beatae vero adipisci minima quas!</p>
                     </div>
                 </div>
             </div>
 
-            <div class="carousel-item" style="background-color: rgb(104, 104, 104);">
+            <div class="carousel-item" style="background-color:rgb(70, 66, 128)">
                 <div class="container1">
                     <div class="container">
-                        <h1>Refillable Tumblers</h1>
-                        <p>Staying hydrated never looked this cool! Bring along your favorite reusable bottle for all your water consumption.</p>
+                        <h1>Extra Batteries</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque eveniet fuga adipisci quisquam soluta optio reprehenderit perferendis. Quia, distinctio facilis!</p>
                     </div>
                 </div>
             </div>
 
-            <div class="carousel-item" style="background-color: rgb(58, 58, 58);">
+            <div class="carousel-item" style="background-color:rgb(138, 68, 68);">
                 <div class="container1">
                     <div class="container">
-                        <h1>Refillable Tumblers</h1>
-                        <p>Staying hydrated never looked this cool! Bring along your favorite reusable bottle for all your water consumption.</p>
+                        <h1>Download Maps</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tenetur possimus consectetur temporibus unde corporis qui quas architecto hic praesentium.</p>
                     </div>
                 </div>
             </div>
@@ -117,6 +136,44 @@
 
     </div>
     <!-- /Carouse -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-white">
+
+            <div class="footerParent">
+                <div class="footerChild1">
+                    <h5>PhilSpot</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nihil, nostrum eum porro rem adipisci esse vitae quam sit cumque.</p>
+                </div>
+
+                <div class="footerChild2">
+                    <h5>Community</h5>
+                    <p>Blog</p>
+                    <p>Ideas</p>
+                    <p>Developers</p>
+                </div>
+
+                <div class="footerChild3">
+                    <h5>Contact</h5>
+                    <p><i class="bi bi-telephone-forward-fill"></i>  +63 9382951931</p>
+                    <p><i class="bi bi-envelope"></i> PhilSpot.Help@gmail.com</p>
+                </div>
+
+                <div class="footerChild4">
+                    <h5>Follow Us</h5>
+                    <div class="social">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+    <!-- /Footer -->
 
 </body>
 </html>
