@@ -1,93 +1,236 @@
 /* Container1 */
+.container-fluid{
+    background-color: #131313;
+    height: 2080px;
+}
+
 .c1Parent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "c1Heading childDropdown";
     text-align: center;
     padding: 20px;
     bottom: 0px;
+}
+
+#c1Heading{
+    grid-area: c1Heading;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.childDropdown{
+    grid-area: childDropdown;
+    justify-content: center;
 }
 
 #Dropdown{
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
-    background-color: transparent;
+    background-color: #977a0600;
+    margin: 4px;
     border-style: none;
+    width: 80px;
+    border-radius: 5px;
 }
 
 /* /Container1 */
 
 /* Container2 */
-#containerParent{
+.c2Parent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    height: 900px;
+    justify-content: center;
+    height: 600px;
     gap: 20px;
     grid-template-areas: 
         "imageCard1 imageCard2 imageCard3"
         "imageCard4 imageCard5 imageCard6"
         "imageCard7 imageCard8 imageCard9"
     ;
+    height: auto;
 }
 
-
-.images{
-    text-align: center;
-    justify-content: center;
-    padding: 25px;
+h6{
+    color: rgba(0, 0, 0, 0.856);
 }
 
 .details{
     padding: 25px;
+    padding-top: 20px;
+    text-align: left;
+}.details p{
+    height: 130px;
+}
+
+#pin{
+    color: #ff0000;
 }
 
 #imageCard1{
     grid-area: imageCard1;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+} .image1{
+    width: 100%;
+    height:340px;
+    background-image: url(AntoniaBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard2{
     grid-area: imageCard2;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image2{
+    width: 100%;
+    height:340px;
+    background-image: url(MorongBeach.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
 
 #imageCard3{
     grid-area: imageCard3;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image3{
+    width: 100%;
+    height:340px;
+    background-image: url(AlegriaBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard4{
     grid-area: imageCard4;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image4{
+    width: 100%;
+    height:340px;
+    background-image: url(LambugBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard5{
     grid-area: imageCard5;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image5{
+    width: 100%;
+    height:340px;
+    background-image: url(AnguibBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard6{
     grid-area: imageCard6;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image6{
+    width: 100%;
+    height:340px;
+    background-image: url(PinkBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard7{
     grid-area: imageCard7;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image7{
+    width: 100%;
+    height:340px;
+    background-image: url(BanolBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard8{
     grid-area: imageCard8;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image8{
+    width: 100%;
+    height:340px;
+    background-image: url(PukaBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
+
 #imageCard9{
     grid-area: imageCard9;
-    background-color:rgba(255, 255, 255, 0.267);
+    background-color:#ffffff;
     border-radius: 10px;
+}.image9{
+    width: 100%;
+    height:340px;
+    background-image: url(SaudBeach.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
 }
 
-
+#imageCard1:hover, #imageCard2:hover, #imageCard3:hover, #imageCard4:hover, #imageCard5:hover, #imageCard6:hover, #imageCard7:hover, #imageCard8:hover, #imageCard9:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 8px 16px rgba(0.9, 0.9, 0.9, 0.9);
+}
 /* /Container2 */
+
+/* Container1 Responsiveness */
+@media(max-width:1199px){
+    .c1Parent{
+        margin-top: -10px;
+    }
+
+    #c1Heading{
+        text-align: left;
+    }#c1Heading h1{
+        font-size: 40px;
+    }
+
+    .childDropdown .image img{
+        margin-top: 36px;
+    }
+}
+/* /Container1 Responsiveness */
+
+/* Container2 Responsiveness */
+/* /Container2 Responsiveness */
