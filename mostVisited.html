@@ -24,6 +24,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <link href="https://www.dafontfree.net/embed/cG9ydGVyLWJvbGQtZGVtbyZkYXRhLzIwL3AvOTg5MjEvUG9ydGVyX0JvbGQudHRm" rel="stylesheet" type="text/css"/>
 
     <!-- Navigation Bar 3.0 -->
     <div class="container-{breakpoint} bg-black text-white">
@@ -142,40 +144,48 @@
 
             </div>
 
+            <!-- <div style="text-align: center; margin-top: 20px;">
+                <button type="button" class="btn btn-warning" id="buttons">Load More</button>
+            </div> -->
+            
+
         </div>
     </div>
     <!-- /Container 1 -->
     
     <!-- Container 2 -->
-    <div class="container-fluid" style="background-color: #131313; height: 1175px;">
+    <div class="container-fluid" style="background-color: #131313; height: 1145px;">
         <div class="container">
 
             <div class="row">
                 <div class="col">
-                    <div class="col p-4 mt-3"><h1 id="c1Heading1">More <b>Region</b></h1></div>
+                    <div class="col p-4 mt-3" id="c1Heading1" style="text-align: center;"><h1>More <b style="color: #ffcc00;">Regions</b></h1></div>
                 </div>
             </div>
 
-            <div class="row p-1" style="color:white;">
-                <h2>Ilocos Region</h2>
+
+            <div class="row">
+                <span style="width: auto; margin-left: 4px;">
+                    <H2 id="regionHeading">Ilocos Region</H2>
+                </span>
             </div>
 
             <div id="c2Parent">
-
+                
                 <div id="c2Image1">
                     <div class="bottomleft">
-                        <h3>Boracay</h3>
+                        <h3>Agno Beach</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Western Visayas Region
+                            the Umbrella Rocks in Sabangan, as well as several beaches, Agno Beach being the longest and most popular.
                         </p>
                     </div>
                 </div>
+
                 <div id="c2Image2">
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -184,7 +194,7 @@
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -193,7 +203,7 @@
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -202,8 +212,10 @@
 
             <br>
             
-            <div class="row p1" style="color: white;">
-                <h2>Central Luzon</h2>
+            <div class="row">
+                <span style="width: auto; margin-left: 4px;">
+                    <H2 id="regionHeading">Central Luzon</H2>
+                </span>
             </div>
 
             <div id="c2Parent2">
@@ -211,7 +223,7 @@
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -220,7 +232,7 @@
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -229,7 +241,7 @@
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -238,7 +250,7 @@
                     <div class="bottomleft">
                         <h3>Boracay</h3>
                         <p>
-                            <i class="bi bi-geo-alt-fill"></i>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
                             Western Visayas Region
                         </p>
                     </div>
@@ -249,7 +261,7 @@
 
             <div class="row">
                 <div class="col text-center">
-                    <button type="button" class="btn btn-outline-info">
+                    <button type="button" class="btn btn-outline-warning" id="buttons">
                         Load More
                     </button>
                 </div>
