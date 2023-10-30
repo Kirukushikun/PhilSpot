@@ -31,7 +31,7 @@
 
 .flex-container{
     display: flex;
-    background-color: rgba(30, 143, 255, 0);
+    background-color: #1e8fff00;
     padding-top: 30px;
     align-items: center;
     justify-content: center;

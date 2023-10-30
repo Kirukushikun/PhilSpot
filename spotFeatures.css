@@ -236,8 +236,111 @@ h6{
         margin-top: 36px;
     }
 }
+@media(max-width:991px){
+    .image{
+        padding-top: 10px;
+    }
+}
+@media(max-width:767px){
+    .c1Parent{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .childDropdown{
+        text-align: right;
+        padding-right: 0;
+    }
+
+    .image{
+        padding-right: 15px;
+        width:300px;
+    }
+}
+@media(max-width:563px){
+    .c1Parent{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "c1Heading"
+        "childDropdown";
+    }
+
+    #c1Heading{
+        text-align: center;
+        margin-bottom: -50px;
+    }
+
+    .image{
+        text-align: left;
+        margin-left: 44%;
+        width:300px;
+
+    }
+
+    .childDropdown{
+        margin-top: 0;
+        text-align: center;
+    }
+}
 /* /Container1 Responsiveness */
 
 /* Container2 Responsiveness */
+@media(max-width:1199px){
 
+    .container-fluid{
+        height: 3330px;
+    }
+
+    .c2Parent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "imageCard1 imageCard1 imageCard2 imageCard2"
+        "imageCard3 imageCard3 imageCard4 imageCard4"
+        "imageCard5 imageCard5 imageCard6 imageCard6"
+        "imageCard7 imageCard7 imageCard8 imageCard8"
+        "imageCard9 imageCard9 imageCard10 imageCard10";
+    }
+}
+@media(max-width:991px){
+    #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
+        height: 620px;
+    }
+
+    .container-fluid{
+        height: 3440px;
+    }
+}
+@media(max-width:767px){
+    .container-fluid{
+        height: auto;
+    }
+
+    .c2Parent{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "imageCard1 imageCard1"
+        "imageCard2 imageCard2"
+        "imageCard3 imageCard3"
+        "imageCard4 imageCard4"
+        "imageCard5 imageCard5"
+        "imageCard6 imageCard6"
+        "imageCard7 imageCard7"
+        "imageCard8 imageCard8"
+        "imageCard9 imageCard9"
+        "imageCard10 imageCard10";
+    }
+
+    #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
+        height: auto;
+    }
+
+    .button{
+        padding-bottom: 40px;
+    }
+
+}
+@media(max-width:375px){
+    #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
+        height: 655px;
+    }
+}
 /* /Container2 Responsiveness */
