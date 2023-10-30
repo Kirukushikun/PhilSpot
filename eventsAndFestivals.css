@@ -112,3 +112,39 @@
 }
 
 /* Carousel */
+
+/* Continer1 Responsiveness */
+@media(max-width:991px){
+    #container-fluid1{
+        height: 1420px;
+    }
+
+    .c1Parent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "image1 image1 image2 image2"
+        "image3 image3 image4 image4"
+        "image5 image5 image6 image6";
+    }
+}@media(max-width:767px){
+    #container-fluid1{
+        height: 2620px;
+    }
+
+    .c1Parent{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "image1"
+        "image2"
+        "image3"
+        "image4"
+        "image5"
+        "image6";
+    }
+
+}@media(max-width:320px){
+    #container-fluid1{
+        height: 2660px;
+    }
+}
+/* /Continer1 Responsiveness */
