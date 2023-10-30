@@ -1,48 +1,33 @@
 #c1Parent{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-    "img1 img2 img3"
-    "img4 img5 img6"
-    "img7 img8 img9";
+    "img1 img1 img2 img2";
 }
 
 .c1Child1{
     grid-area: img1;
     background-color: rgb(255, 208, 196);
+    height: 400px;
+    overflow: hidden;
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: brightness(80%);
+}.image:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 8px 16px rgba(0.9, 0.9, 0.9, 0.9);
+    filter: brightness(100%);
 }
 
 .c1Child2{
     grid-area: img2;
     background-color: rgb(254, 255, 196);
-}
-.c1Child3{
-    grid-area: img3;
-    background-color: rgb(210, 255, 196);
-}
-.c1Child4{
-    grid-area: img4;
-    background-color: rgb(196, 251, 255);
-}
-.c1Child5{
-    grid-area: img5;
-    background-color: rgb(196, 200, 255);
-}
-.c1Child6{
-    grid-area: img6;
-    background-color: rgb(255, 196, 211);
-}
-.c1Child7{
-    grid-area: img7;
-    backgrond-color: rgb(255, 196, 211);
-}
-.c1Child8{
-    grid-area: img8;
-    background-color: rgb(255, 196, 211);
-}
-.c1Child9{
-    grid-area: img9;
-    background-color: rgb(255, 196, 211);
 }
 
 @media (max-width:1199px){
