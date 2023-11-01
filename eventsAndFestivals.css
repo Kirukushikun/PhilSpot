@@ -32,7 +32,6 @@
     "image4 image5 image6";
 }
 
-
 .c1Child{
     height: 390px;
     overflow: hidden;
@@ -69,7 +68,6 @@
     filter: brightness(78%);
 }
 
-
 .bottomleft {
     position: absolute;
     bottom: 13px;
@@ -78,6 +76,16 @@
     letter-spacing: 1px;
 
     color: white;
+}#c1H5{
+    font-weight: 500;
+    font-size: 17px;
+}#c1H4{
+    font-weight: 800;
+    font-size: 25px;
+    font-family:poppins;
+}#c1H6{
+    font-family: poppins;
+    font-weight: 500;
 }
 
 /* /Container1 */
@@ -99,11 +107,6 @@
     background-position: center;
 }
 
-#container1{
-    padding-bottom: 200px;
-    color: white;
-}
-
 .img2{
     width: 100%;
     height: 100%;
@@ -113,6 +116,21 @@
     transform: scale(1.05);
     transition: 0.5s;
     filter: brightness(78%);
+}
+
+#cH6{
+    font-weight: 500;
+}#cH4{
+    font-family: fsBebas;
+    font-size: 50px;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}#cH5{
+    font-size: 18px;
+    font-weight: 400;
+}#pin{
+    color: #ffffff;
+    font-size: 15px;
 }
 
 /* Carousel */
@@ -152,3 +170,20 @@
     }
 }
 /* /Continer1 Responsiveness */
+
+
+/* Continer2 Responsiveness */
+@media(max-width:767px){
+    .carousel-caption{
+        top: 30%;
+    }
+}@media(max-width:409px){
+    .carousel-caption{
+        top: 25%;
+    }
+}@media(max-width:320px){
+    .carousel-caption{
+        top: 16%;
+    }
+}
+/* /Continer2 Responsiveness */
