@@ -18,52 +18,56 @@
 
 .bottomleft {
     position: absolute;
+
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    padding-right: 10px;
     bottom: 13px;
     left: 20px;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding-right: 10px;
-    color: white;
-}
 
-.midcenter {
-    padding: 45px;
-    text-align: center;
-    position: absolute;
-    font-size: 15px;
-    letter-spacing: 1px;
     color: white;
+}.midcenter {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+    text-align: center;
+    padding-top: 25%;
 }
 
 .c1Parent{
-    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    height: auto;
     grid-template-areas: 
         "Image1 Image1 Image1 Image1"
         "Image2 Image3 Image4 Image5"
     ;
+
+    height: auto;
+    color: white;
+    gap: 20px;
 }
 
 #Image1, #Image2, #Image3, #Image4, #Image5{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.849);
     transition: transform 0.3s, box-shadow 0.3s;
+    width: auto;
+    height: auto;
 }
 
 #Image1:hover, #Image2:hover, #Image3:hover, #Image4:hover, #Image5:hover{
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-
 }
 
 #Image1{
     grid-area: Image1;
     background-image: url(Calle.jfif);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    
     height: 500px;
     position: relative;
 }
@@ -71,8 +75,9 @@
 #Image2{
     grid-area: Image2;
     background-image: url(BanaueRice.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    
     height: 170px;
     position: relative;
 }
@@ -80,8 +85,9 @@
 #Image3{
     grid-area: Image3;
     background-image: url(ManilaOceanPark.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    
     height: 170px;
     position: relative;
 }
@@ -89,8 +95,9 @@
 #Image4{
     grid-area: Image4;
     background-image: url(HinagdananCave.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    
     height: 170px;
     position: relative;
 }
@@ -98,16 +105,14 @@
 #Image5{
     grid-area: Image5;
     background-image: url(TaoistTemple.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    
     height: 170px;
     position: relative;
 }
 
-#buttons{
-    margin-top: 10px;
-    border-radius: 7px;
-}
+
 
 /* /Container1 */
 
@@ -131,22 +136,21 @@
 }
 
 #c2Parent{
-    color: white;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: auto;
     grid-template-areas:
-    "c2Image1 c2Image2 c2Image3 c2Image4"
-    ;
+    "c2Image1 c2Image2 c2Image3 c2Image4";
+
+    height: auto;
+    color: white;
 }
 
 #c2Image1{
-    grid-area: c2Image1;
-    background-color: #1e1e1e;   
+    grid-area: c2Image1; 
     height: 400px;
     position: relative;
-}
-#c2Image1::before{
+}#c2Image1::before{
     content: '';
     background-image: url(AgnoBeach.jpg);
     background-position: center;
@@ -159,11 +163,9 @@
 
 #c2Image2{
     grid-area: c2Image2;
-    background-color: #1e1e1e;   
     height: 400px;
     position: relative;
-}
-#c2Image2::before{
+}#c2Image2::before{
     content: '';
     background-image: url(LaUnion.jpg);
     background-position: center;
@@ -175,12 +177,10 @@
 }
 
 #c2Image3{
-    grid-area: c2Image3;
-    background-color: #1e1e1e;   
+    grid-area: c2Image3; 
     height: 400px;
     position: relative;
-}
-#c2Image3::before{
+}#c2Image3::before{
     content: '';
     background-image: url(IlocosNorte.jpg);
     background-position: center;
@@ -193,11 +193,9 @@
 
 #c2Image4{
     grid-area: c2Image4;
-    background-color: #1e1e1e;   
     height: 400px;
     position: relative;
-}
-#c2Image4::before{
+}#c2Image4::before{
     content: '';
     background-image: url(IlocosSur.jpg);
     background-position: center;
@@ -209,22 +207,20 @@
 }
 
 #c2Parent2{
-    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: auto;
     grid-template-areas:
-    "c2Image5 c2Image6 c2Image7 c2Image8"
-    ;
+    "c2Image5 c2Image6 c2Image7 c2Image8";
+
+    height: auto;
+    color: white;
 }
 
 #c2Image5{
     grid-area: c2Image5;
-    background-color: #1e1e1e;   
     height: 400px;
     position: relative;
-}
-#c2Image5::before{
+}#c2Image5::before{
     content: '';
     background-image: url(Pampanga.jpg);
     background-position: center;
@@ -236,12 +232,10 @@
 }
 
 #c2Image6{
-    grid-area: c2Image6;
-    background-color: #1e1e1e;   
+    grid-area: c2Image6;  
     height: 400px;
     position: relative;
-}
-#c2Image6::before{
+}#c2Image6::before{
     content: '';
     background-image: url(Aurora.jpg);
     background-position: center;
@@ -253,12 +247,10 @@
 }
 
 #c2Image7{
-    grid-area: c2Image7;
-    background-color: #1e1e1e;   
+    grid-area: c2Image7; 
     height: 400px;
     position: relative;
-}
-#c2Image7::before{
+}#c2Image7::before{
     content: '';
     background-image: url(Tarlac.jpg);
     background-position: center;
@@ -271,11 +263,9 @@
 
 #c2Image8{
     grid-area: c2Image8;
-    background-color: #1e1e1e;   
     height: 400px;
     position: relative;
-}
-#c2Image8::before{
+}#c2Image8::before{
     content: '';
     background-image: url(Zambales.jpg);
     background-position: center;
@@ -284,6 +274,11 @@
     width: 100%;
     height: 100%;
     filter: brightness(70%);
+}
+
+#button{
+    margin-top: 10px;
+    border-radius: 7px;
 }
 
 #c2Image1:hover, #c2Image2:hover, #c2Image3:hover, #c2Image4:hover,#c2Image5:hover, #c2Image6:hover, #c2Image7:hover, #c2Image8:hover{
@@ -314,7 +309,6 @@
         height: 930px;
     }
 }
-
 @media(max-width:767px){
     .c1Parent{
         grid-template-columns: 1fr;
@@ -336,14 +330,11 @@
 
     .midcenter{
         padding: 60px;
-        padding-left: 145px;
     }
 }
-
-@media(max-width:541px){
+@media(max-width:320px){
     .midcenter{
-        padding: 60px;
-        left: 18px;
+        padding-top: 18%;
     }
 }
 /* Container1 Responsiveness */
