@@ -27,7 +27,7 @@
 /* Container 2 */
 #c2Background{
     position: relative;
-    background-image: url(Phil2.jpg);
+    background-image: url(HomePage/Philippines.jpg);
     background-position: center;
     background-size: cover;
     
@@ -124,7 +124,7 @@
 
 #sideImage0{
     grid-area: sideImage0;
-    background-image: url(Palawan.jpg);
+    background-image: url(HomePage/Palawan.jpg);
     background-position: center;
     background-size: cover;
     height: 540px;
@@ -133,28 +133,28 @@
 
 #colImage1{
     grid-area: colImage1;
-    background-image: url(Boracay.jpg);
+    background-image: url(HomePage/Boracay.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 #colImage2{
     grid-area: colImage2;
-    background-image: url(FortSantiago.jpg);
+    background-image: url(HomePage/FortSantiago.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 #colImage3{
     grid-area: colImage3;
-    background-image: url(TinagoFalls.jpg);
+    background-image: url(HomePage/TinagoFalls.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 #colImage4{
     grid-area: colImage4;
-    background-image: url(mtPinatubo.jpg);
+    background-image: url(HomePage/mtPinatubo.jpg);
     background-position: center;
     background-size: cover;
     position: relative;

@@ -64,7 +64,7 @@
 
 #Image1{
     grid-area: Image1;
-    background-image: url(Calle.jfif);
+    background-image: url(MostVisited/Calle.jfif);
     background-position: center;
     background-size: cover;
     
@@ -74,7 +74,7 @@
 
 #Image2{
     grid-area: Image2;
-    background-image: url(BanaueRice.jpg);
+    background-image: url(MostVisited/BanaueRice.jpg);
     background-position: center;
     background-size: cover;
     
@@ -84,7 +84,7 @@
 
 #Image3{
     grid-area: Image3;
-    background-image: url(ManilaOceanPark.jpg);
+    background-image: url(MostVisited/ManilaOceanPark.jpg);
     background-position: center;
     background-size: cover;
     
@@ -94,7 +94,7 @@
 
 #Image4{
     grid-area: Image4;
-    background-image: url(HinagdananCave.jpg);
+    background-image: url(MostVisited/HinagdananCave.jpg);
     background-position: center;
     background-size: cover;
     
@@ -104,7 +104,7 @@
 
 #Image5{
     grid-area: Image5;
-    background-image: url(TaoistTemple.jpg);
+    background-image: url(MostVisited/TaoistTemple.jpg);
     background-position: center;
     background-size: cover;
     
@@ -152,7 +152,7 @@
     position: relative;
 }#c2Image1::before{
     content: '';
-    background-image: url(AgnoBeach.jpg);
+    background-image: url(MostVisited/AgnoBeach.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -167,7 +167,7 @@
     position: relative;
 }#c2Image2::before{
     content: '';
-    background-image: url(LaUnion.jpg);
+    background-image: url(MostVisited/LaUnion.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -182,7 +182,7 @@
     position: relative;
 }#c2Image3::before{
     content: '';
-    background-image: url(IlocosNorte.jpg);
+    background-image: url(MostVisited/IlocosNorte.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -197,7 +197,7 @@
     position: relative;
 }#c2Image4::before{
     content: '';
-    background-image: url(IlocosSur.jpg);
+    background-image: url(MostVisited/IlocosSur.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -222,7 +222,7 @@
     position: relative;
 }#c2Image5::before{
     content: '';
-    background-image: url(Pampanga.jpg);
+    background-image: url(MostVisited/Pampanga.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -237,7 +237,7 @@
     position: relative;
 }#c2Image6::before{
     content: '';
-    background-image: url(Aurora.jpg);
+    background-image: url(MostVisited/Aurora.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -252,7 +252,7 @@
     position: relative;
 }#c2Image7::before{
     content: '';
-    background-image: url(Tarlac.jpg);
+    background-image: url(MostVisited/Tarlac.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -267,7 +267,7 @@
     position: relative;
 }#c2Image8::before{
     content: '';
-    background-image: url(Zambales.jpg);
+    background-image: url(MostVisited/Zambales.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;

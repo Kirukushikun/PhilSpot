@@ -78,7 +78,7 @@
 } .image1{
     width: 100%;
     height:340px;
-    background-image: url(AntoniaBeach.jpg);
+    background-image: url(SpotFeatures/AntoniaBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -94,7 +94,7 @@
 }.image2{
     width: 100%;
     height:340px;
-    background-image: url(MorongBeach.jpeg);
+    background-image: url(SpotFeatures/MorongBeach.jpeg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -110,7 +110,7 @@
 }.image3{
     width: 100%;
     height:340px;
-    background-image: url(AlegriaBeach.jpg);
+    background-image: url(SpotFeatures/AlegriaBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -125,7 +125,7 @@
 }.image4{
     width: 100%;
     height:340px;
-    background-image: url(LambugBeach.jpg);
+    background-image: url(SpotFeatures/LambugBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -140,7 +140,7 @@
 }.image5{
     width: 100%;
     height:340px;
-    background-image: url(AnguibBeach.jpg);
+    background-image: url(SpotFeatures/AnguibBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -155,7 +155,7 @@
 }.image6{
     width: 100%;
     height:340px;
-    background-image: url(PinkBeach.jpg);
+    background-image: url(SpotFeatures/PinkBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -170,7 +170,7 @@
 }.image7{
     width: 100%;
     height:340px;
-    background-image: url(BanolBeach.jpg);
+    background-image: url(SpotFeatures/BanolBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -185,7 +185,7 @@
 }.image8{
     width: 100%;
     height:340px;
-    background-image: url(PukaBeach.jpg);
+    background-image: url(SpotFeatures/PukaBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
@@ -200,7 +200,7 @@
 }.image9{
     width: 100%;
     height:340px;
-    background-image: url(SaudBeach.jpg);
+    background-image: url(SpotFeatures/SaudBeach.jpg);
     background-position: center;
     background-size: cover;
     padding: 20px;
