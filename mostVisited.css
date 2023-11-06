@@ -34,6 +34,7 @@
     display: block;
     text-align: center;
     padding-top: 25%;
+    
 }
 
 .c1Parent{
@@ -391,6 +392,12 @@
 @media(max-width:436px){
     .container-fluid{
         height: 3580px;
+    }
+}
+
+@media(max-width:375px){
+    .container-fluid{
+        height: 3660px;
     }
 }
 /* /Container2 Responsiveness */
