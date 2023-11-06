@@ -10,19 +10,19 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="philSpot.css">
+
+    <title>PhilSpot</title>
+    <link rel="stylesheet" href="backpack.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="icon" type="Image/x-icon" href="Icon.ico">
-    <title>PhilSpot</title>
-</head>
-<body style="height: auto;">
 
+</head>
+<body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
+    
     <!-- Navigation Bar 3.0 -->
     <div class="container-{breakpoint} bg-black text-white">
         <div class="container">
@@ -38,8 +38,8 @@
                 </button>
     
                 <div class="collapse navbar-collapse" id="coll" style="justify-content: right;">
-                    <ul class="navbar-nav" id="navElement" style="gap: 16px; font-size: 15px; padding-top: 3px;">         
-
+                    <ul class="navbar-nav" id="navElement" style="gap: 16px; font-size: 15px; padding-top: 3px;">
+                        
                         <li class="navbar-item">
                             <a href="index.html" class="nav-link">Home</a>
                         </li>
@@ -59,144 +59,125 @@
                         <li class="navbar-item">
                             <a href="backpack.html" class="nav-link">Backpack</a>
                         </li>
-
+    
                     </ul>
                 </div>
-
             </nav>
-
         </div>
+
     </div>
     <!-- /Navigation Bar 3.0 -->
+
+    <!-- Container1 -->
+    <div class="container-fluid" id="container-fluid1">
+
+        <div class="row" style="color: white; height: 100%;">
+            
+                <div class="col-4" id="item1">
+
+                    <div class="content">
+                        <a href="backpack.html"><h1>Things to Bring</h1></a>
+                    </div>
+                    
+                </div>
+
+                <div class="col-4" id="item2">
+                   
+                    <div class="content">
+                        <a href="backpack - 2.0.html"><h1>Things to Avoid</h1></a>
+                    </div>
+                    
+                </div>
+
+                <div class="col-4" id="item3">
+                    
+                    <div class="content">
+                        <a href="backpack - 3.0.html"><h1>Things to recall</h1></a>
+                    </div>
+                    
+                </div>
+        </div>
+
+    </div>
+    <!-- /Container1 -->
 
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-
         <!-- Carousel Items -->
         <div class="carousel-inner">
 
-            <div class="carousel-item active" style="background-image: url(HomePage/Luzon.jpg); ">
-                <div id="container">
-                    <h1 class="lvm">LUZON</h1>
-                </div>
-            </div>
+            <div class="carousel-item active">
+                <div class="container1">
+                    <div class="container">
+                        
+                        <div class="parent">
+                            <div class="childItem1">
+                                <img src="Icons/Disrespect.png" alt="" width="250px" >
+                            </div>
+                            <div class="childItem2">
 
-            <div class="carousel-item" style="background-image: url(HomePage/Visayas.jpg);">
-                <div id="container">
-                    <h1 class="lvm">VISAYAS</h1>
-                </div>
-            </div>
+                                <h1>Disrespect <b style="color: #ffcc00;">Customs</b></h1>
+                                <p>Disrespecting customs in another country can lead to misunderstandings, offense, and strained relations, potentially impacting your travel experience and the way you're perceived by locals.</p>
 
-            <div class="carousel-item" style="background-image: url(HomePage/Mindanao.jpg);">
-                <div id="container">
-                    <h1 class="lvm">MINDANAO</h1>
-                </div>
-            </div>
-        </div>
-        <!-- /Carousel Items -->
+                            </div>
+                        </div>
 
-    </div>
-    <!-- /Carousel -->
-
-    <!-- Container 2 -->
-    <div class="container-fluid" id="c2Background">
-        <div class="container">
-            
-            <div class="c2Parent">
-
-                <div class="c2Child1">
-                    <h3 id="c2H3">Welcome to the Philippines</h3>
-                    <p id="c2P">There is more fun in the Philippines!</p>
-                </div>
-
-                <div class="c2Child2">
-                    <img src="HomePage/PhilMap.png" alt="" id="Map">
-                </div>
-
-            </div>
-            
-
-        </div>
-    </div>
-    <!-- /Container 2 -->
-
-    <!-- Container 3 -->
-    <div class="container-fluid" id="tContainer">
-        <div class="container">
-
-            <div class="row">
-                <div class="col" id="c3Header">
-                    <h1 id="c3H1">Suggested <b>Spots</b></h1>
-                </div>
-            </div>
-
-            <div class="c3Parent">
-              
-
-                <div id="sideImage0">
-                    <div class="bottomleft">
-                        <h3>Coron Island</h3>
-                        <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Mimaropa Region
-                        </p>
                     </div>
                 </div>
-
-                <div id="colImage1">
-                    <div class="bottomleft">
-                        <h3>Boracay</h3>
-                        <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Western Visayas
-                        </p>
-                    </div>
-                </div>
-
-                <div id="colImage2">
-                    <div class="bottomleft">
-                        <h3>Fort Santiago</h3>
-                        <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            National Capital Region
-                        </p>
-                    </div>
-                </div>
-                
-                <div id="colImage3">
-                    <div class="bottomleft">
-                        <h3>Tinago Falls</h3>
-                        <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Northern Mindanao
-                        </p>
-                    </div>
-                </div>
-
-                <div id="colImage4">
-                    <div class="bottomleft">
-                        <h3>Mount Pinatubo</h3>
-                        <p>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            Central Luzon
-                        </p>
-                    </div>
-                </div>
-
             </div>
+
+            <div class="carousel-item">
+                <div class="container1">
+                    <div class="container">
+                        
+                        <div class="parent">
+                            <div class="childItem1">
+                                <img src="Icons/Criticize.png" alt="" width="250px" >
+                            </div>
+                            <div class="childItem2">
+                                <h1>Cultural <b style="color: #ffcc00;">Criticism</b></h1>
+                                <p>Cultural criticism in another country can create tension, hinder cultural exchange, and limit the opportunity to learn and appreciate the unique aspects of the local culture, which is an essential part of the travel experience.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container1">
+                    <div class="container">
+                        
+                        <div class="parent">
+                            <div class="childItem1">
+                                <img src="Icons/Garbage.png" alt="" width="250px" >
+                            </div>
+                            <div class="childItem2">
+                                <h1>Waste <b style="color: #ffcc00;">Resources</b></h1>
+                                <p>Proper waste disposal in another country is not only a matter of environmental responsibility but also a way to show respect for the local environment and community.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Items -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
 
         </div>
-        
 
     </div>
-
-    <!-- /Container 3 -->
+    <!-- /Carouse -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -235,6 +216,6 @@
         </div>
     </footer>
     <!-- /Footer -->
-    
+
 </body>
 </html>

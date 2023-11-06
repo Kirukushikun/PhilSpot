@@ -1,7 +1,7 @@
 /* Container1 */
 .container-fluid{
-    background-color: #131313;
-    height: 2080px;
+    background-color: #131313;  
+    height: 2330px;
 }
 
 .c1Parent{
@@ -68,6 +68,12 @@
     color: #144484;
 }#pin{
     color: #ff0000;
+}
+
+.scroll{
+    width: auto;
+    height: 220px;
+    overflow-y: scroll;
 }
 
 #imageCard1{
@@ -281,7 +287,7 @@
 @media(max-width:1199px){
 
     .container-fluid{
-        height: 3330px;
+        height: 3480px;
     }
 
     .c2Parent{
@@ -296,11 +302,12 @@
 }
 @media(max-width:991px){
     #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
-        height: 620px;
+        height: auto;
+        padding-bottom: 5px;
     }
 
     .container-fluid{
-        height: 3440px;
+        height: 3830px;
     }
 }
 @media(max-width:767px){
@@ -334,7 +341,8 @@
 }
 @media(max-width:375px){
     #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
-        height: 655px;
+        height: auto;
+        padding-bottom: -2px;
     }
 }
 /* /Container2 Responsiveness */

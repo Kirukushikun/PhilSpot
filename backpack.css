@@ -22,6 +22,9 @@
 }.row h1:hover{
     transition: 0.5s;
     transform: scale(1.1);
+}.row a{
+    text-decoration: none;
+    color: white;
 }
 
 /* /Container1 */
